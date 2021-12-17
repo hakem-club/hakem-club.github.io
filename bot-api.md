@@ -29,12 +29,6 @@ These are the steps:
     * ...
 * Contact one of our admins ([@mvalipour](https://twitter.com/mvalipour)) to add your bot to the platform.
 
-### How do I test my Bot?
-
-After deploying your API and having it publicly available on a host:
-
-- Head over to [Our Test Page](https://www.hakem.club/test-bot) and test your bot!
-
 
 ### Authentication
 
@@ -158,14 +152,11 @@ Response Payload (body)
 
 * * *
 
-## Random Bot
+## Test Your Bot!
 
-https://github.com/hakem-club/courtpiece-bot-random/blob/master/api/bots/random.ts
+### Locally
 
-## High-card Bot
-
-https://github.com/hakem-club/courtpiece-bot-random/blob/master/api/bots/highcard.ts
-
+You use cURL or postman to send following (or similar) requests to your bot APIs:
 
 e.g. — play_card on random bot
 
@@ -214,6 +205,24 @@ curl -X POST \
 ```
 3
 ```
+
+### On Production
+
+After deploying your API and having it publicly available on a host, Head over to [Our Test Page](https://www.hakem.club/test-bot) and test your bot!
+
+
+* * * 
+
+## Examples
+
+### Random Bot
+
+https://github.com/hakem-club/courtpiece-bot-random/blob/master/api/bots/random.ts
+
+### High-card Bot
+
+https://github.com/hakem-club/courtpiece-bot-random/blob/master/api/bots/highcard.ts
+
 
 
 
