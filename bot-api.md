@@ -2,7 +2,7 @@
 title: Bots API
 ---
 
-# Hakem.club — Bots API
+# Bots API
 
 ## What is a Bot
 
