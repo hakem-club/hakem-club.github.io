@@ -5,6 +5,8 @@ nav_order: 2
 
 # Bots API
 
+{:toc}
+
 ## What is a Bot
 
 We have designed [Hakem.club](http://hakem.club/) in such way that allows you to write a “bot” that participate in games of Courtpiece (حکم).
