@@ -5,7 +5,10 @@ nav_order: 2
 
 # Bots API
 
+1. TOC
 {:toc}
+
+--- 
 
 ## What is a Bot
 
