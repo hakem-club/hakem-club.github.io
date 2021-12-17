@@ -1,5 +1,6 @@
 ---
 title: Bots API
+nav_order: 2
 ---
 
 # Bots API
