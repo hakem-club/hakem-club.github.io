@@ -4,8 +4,7 @@ nav_order: 2
 ---
 
 # Bots API
-
-{: .no_toc .text-delta }
+{: .no_toc }
 
 - TOC
 {:toc}
