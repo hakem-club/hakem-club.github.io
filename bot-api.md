@@ -44,7 +44,7 @@ POST https://yourserver.com/choose_trump_suite
 
 Request Payload (body) 
 
-```
+```js
 export type TPayload = {
   // exactly the first 5 cards from your hand
   your_cards: PlayingCard[];
@@ -53,7 +53,7 @@ export type TPayload = {
 
 e.g.
 
-```
+```js
 { 
     "your_cards": [ 27, 48, 21, 4, 44 ]
 }
@@ -80,7 +80,7 @@ POST https://yourserver.com/play_card
 
 Request Payload (body) 
 
-```
+```js
 export type TPayload = {
   // index of the lead player (hakem)
   whos_lead: PlayerIndex;
@@ -116,7 +116,7 @@ export type TTrick = {
 
 e.g:
 
-```
+```js
 {
   "whos_lead": 2,
   "your_index": 3,
