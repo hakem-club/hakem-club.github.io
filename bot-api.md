@@ -40,6 +40,8 @@ These are the steps:
 
 ## Actions
 
+> **NOTE:** This API references some data models that are described in detail in our [Data Model Page](/data-model.html).
+
 ### Action: Choose a trump suite
 
 We will call this API when we need a bot to choose a trump suite (hokm).
