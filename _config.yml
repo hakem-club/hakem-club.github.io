@@ -1,7 +1,6 @@
 title: "Hakem.club — Developers"
 logo: "https://www.hakem.club/logo.svg"
 remote_theme: pmarsceill/just-the-docs
-search_enabled: false
 aux_links:
   "try Hakem.club":
     - "https://hakem.club"
