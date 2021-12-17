@@ -1,1 +1,9 @@
 $link-color: $red-300;
+
+
+blockquote {
+    border-left: solid 7px;
+    margin-left: 0;
+    padding-left: 1rem;
+    color: $yellow-300;
+}
