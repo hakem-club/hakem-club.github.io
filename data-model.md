@@ -23,7 +23,7 @@ const RANKS = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 
 > **NOTE**: We keep the ranks in order of their scoring precedence (specifically keeping A in the end rather than beginning because in this game A has the highest winning value)
 
-A playing card is presented like this:
+A playing card is represented like this:
 
 ```js
 export type PlayingCard = 0..51;
