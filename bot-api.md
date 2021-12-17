@@ -10,7 +10,7 @@ nav_order: 2
 
 --- 
 
-## What is a Bot
+## What is a Bot?
 
 We have designed [Hakem.club](http://hakem.club/) in such way that allows you to write a “bot” that participate in games of Courtpiece (حکم).
 
@@ -29,16 +29,23 @@ These are the steps:
     * ...
 * Contact one of our admins ([@mvalipour](https://twitter.com/mvalipour)) to add your bot to the platform.
 
-## Open Questions
+### How do I test my Bot?
 
-* We need to figure out a way for Bot developers to test their bots.
-* We need to figure out a way to authenticate bot API calls
-    * either through pre-auth URLs
-    * or `access-token` header.
+After deploying your API and having it publicly available on a host:
+
+- Head over to [Our Test Page](https://www.hakem.club/test-bot) and test your bot!
+
+
+### Authentication
+
+// TODO
+
 
 * * *
 
-### API: Choose a trump suite
+## Actions
+
+### Action: Choose a trump suite
 
 We will call this API when we need a bot to choose a trump suite (hokm).
 
@@ -74,7 +81,7 @@ Response Payload (body)
 
 * * *
 
-### API: Play a Card
+### Action: Play a Card
 
 We will call this API when we need a bot to play a card.
 
