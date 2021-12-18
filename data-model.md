@@ -45,7 +45,8 @@ function getSuiteOfCard(card: PlayingCard): PlayingCardSuite {
 }
 
 function getRankOfCard(card: PlayingCard): PlayingCardRank {
-  return card % 13;
+  
+  return card % 13; // e.g. if card is 2, it means '♥4' or if card is 13, it means '♠2'
 }
 ```
 
