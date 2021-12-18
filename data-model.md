@@ -22,6 +22,7 @@ This way of representing a card is concise, size-efficient, preserves both the S
 type PlayingCard = 0..51;
 ```
 
+![image](https://user-images.githubusercontent.com/2564173/146656706-f2f6512b-eb36-42c7-b398-3950faa1d4a3.png)
 
 
 ### Computed: `PlayingCardSuite` and `PlayingCardRank`
