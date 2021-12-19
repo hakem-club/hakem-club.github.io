@@ -63,7 +63,7 @@ Given a `PlayingCard` (number), you can workout what is the "suite" and "rank" o
 
 ```js
 function getSuiteOfCard(card: PlayingCard): PlayingCardSuite {
-  return Math.floor(Math.floor(card/13));
+  return Math.floor(card/13);
 }
 
 function getRankOfCard(card: PlayingCard): PlayingCardRank {
